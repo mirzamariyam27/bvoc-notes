@@ -1,0 +1,71 @@
+body{
+font-family: Arial;
+margin:0;
+background:#f4f4f4;
+}
+
+/* Header Gradient */
+
+header{
+background: linear-gradient(90deg, #4e54c8, #8f94fb);
+color:white;
+text-align:center;
+padding:35px;
+}
+
+/* Hero Section */
+
+.hero{
+text-align:center;
+padding:50px;
+background:#ecf0f1;
+}
+
+.hero h2{
+font-size:32px;
+}
+
+.hero p{
+font-size:18px;
+max-width:700px;
+margin:auto;
+}
+
+/* Feature Cards */
+
+.features{
+display:flex;
+justify-content:center;
+gap:25px;
+padding:40px;
+flex-wrap:wrap;
+}
+
+/* Cards */
+
+.card{
+background:white;
+padding:25px;
+width:250px;
+text-align:center;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+text-decoration:none;
+color:black;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Footer Gradient */
+
+footer{
+background: linear-gradient(90deg, #4e54c8, #8f94fb);
+color:white;
+text-align:center;
+padding:15px;
+margin-top:30px;
+}
